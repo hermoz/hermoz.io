@@ -42,9 +42,15 @@ p {
     text-align: center;
 }
 
+ img {
+  opacity: 0.8;
+}
+
 #container {
+    position: right;
     text-align: center;
 }
+
 
 /*-- Footer ----------------------------------------------------------*/
 .footer {
@@ -56,3 +62,5 @@ p {
     color: white;
     text-align: center;
  }
+
+ 
