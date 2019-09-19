@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="myfile.css" title="style" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+<!--------------------  Header --------------------------------->
+<!--navbar-light para fondo blanco y letra gris-->
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <a class="navbar-brand" href="#">Logo</a>
+
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#"> Home </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"> link_1 </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"> link_2 </a>
+        </li>
+    </ul>
+</nav>
+<br>
+
+<!--------------------   Jumbo --------------------------------->
+<div style="background-color:#ffe628;" class="jumbotron text-center">
+  <h1>D I W</h1>
+  <h3>Diseño de Interfaces Web</h3> 
+</div>
+
+<!-------------------- Columnas --------------------------------->
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">      
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+
+
+<!-------------------- Formulario --------------------------------->
+<div class="container">
+    <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center text-md-left">
+                        <a style="background-color:#ffe628; class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                </div>
+            </form>
+            
+            <br>
+            <br>
+
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <h6>Todos los derechos reservados </h6>
+</div>
+
+</body>
+</html>

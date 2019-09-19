@@ -1,0 +1,58 @@
+/*-- Básico ----------------------------------------------------------*/
+ul, ul li { margin: 0; padding: 0; list-style: none; }
+h1, h2, h3, p, form { margin: 0; padding: 0; }
+.clear { clear: both; }
+img { border: none; }
+
+
+/*-- Partes y parrafos ----------------------------------------------------------*/
+body {
+    background-color:white;
+}
+
+h1 {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 300px; 
+    color: #393e41 ;
+    text-align: center;
+} 
+
+h6 {
+    color:white;
+    text-align: center;
+    } 
+
+h3 {
+    color: #393e41 ;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 25px; 
+    text-align: center;
+    }
+  
+p {
+    color: #393e41 ;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.fas  {
+    font-size: 50px;
+    position: fixed;
+    text-align: center;
+}
+
+#container {
+    text-align: center;
+}
+
+/*-- Footer ----------------------------------------------------------*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #393e41;
+    color: white;
+    text-align: center;
+ }
